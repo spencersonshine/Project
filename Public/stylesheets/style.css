@@ -1,0 +1,36 @@
+body {
+  background-color: #68FCA1;
+}
+
+
+
+label {
+  display: inline-block;
+  width: 80px;
+}
+
+
+.form-heading {
+  border: 3px solid teal;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana;
+}
+
+section {
+  border: 2px solid teal;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+
+div {
+  padding-top: 15px;
+  font-family: Arial;
+}
