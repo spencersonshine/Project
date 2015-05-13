@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" href="public/stylesheets/style.css">
+    </head>
+    <body>
+      <h1 class="form-heading">Profile</h1>
+      <section id="title1">
+        <form method="POST" action="/profile/edit">
+          <div>
+            <label for="email-field">Email</label>
+            <input type="text" name="email" id="email-field" placeholder="Email">
+          </div>
+
+          <div>
+            <label for="password-field">Password</label>
+            <input type="password" name="password" id="password-field" placeholder="Password">
+          </div>
+       
+          <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" checked>Male
+        
+            <input type="radio" name="gender" value="female">Female
+
+          </div>
+
+          <div>
+            <label for="firstname-field">First Name</label>
+            <input type="text" name="first name" id="firstname-field" placeholder="First Name">
+          </div>
+
+          <div>
+            <label for="lastname-field">Last Name</label>
+            <input type="text" name="last name" id="lastname-field" placeholder="Last Name">
+          </div>
+
+          <div id="button">
+            <button>Submit</button>
+          </div>
+      </form>
+    </section>
+
+    </body>
+</html>

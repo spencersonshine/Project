@@ -2,7 +2,10 @@ body {
   background-color: #68FCA1;
 }
 
-
+h1 {
+  background-image: url("http://img0.mxstatic.com/wallpapers/ca24a8cd58e5fb19eae2be83aeea5b14_large.jpeg"); 
+  text-shadow: 0 0 10px black;
+}
 
 label {
   display: inline-block;
@@ -33,4 +36,29 @@ section {
 div {
   padding-top: 15px;
   font-family: Arial;
+}
+
+button {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  background-color: #F47A3D;
+  font-family: Arial;
+  font-size: 2em;
+  display: block;
+  padding: 4px;
+  border-radius: 8px;
+  border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+  width: 160px;
+  text-align: center;
+}
+
+#button {
+  padding-top: 40px;
+}
+
+button:hover { 
+     background-image: url("http://img0.mxstatic.com/wallpapers/ca24a8cd58e5fb19eae2be83aeea5b14_large.jpeg"); 
 }
